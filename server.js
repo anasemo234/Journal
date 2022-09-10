@@ -2,6 +2,7 @@ require("dotenv").config();
 const mongoose = require('mongoose');
 const express = require("express");
 const methodOverride = require("method-override");
+const writeaController = require('./controllers/writes');
 const app = express();
 const PORT = 3000;
 
